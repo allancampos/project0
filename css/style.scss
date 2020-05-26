@@ -1,0 +1,55 @@
+/******** Variables *********/
+
+$bgColor: whitesmoke;
+$fontColor: black;
+
+/******** General Styles *******/
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+html{
+    font-family: sans-serif;
+}
+
+body{
+    width: 100%;
+    background-color: $bgColor ;
+}
+
+/********* Headers **********/
+
+/********** Grid ***********/
+
+.home{
+    padding-top: 50px;
+}
+
+/*********** Content *********/
+
+.myimg{
+    text-align: center;
+}
+
+.img{
+    border-radius: 50%;
+    width: 30%;
+}
+
+/********** Footer **********/ 
+
+footer{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    color: grey;
+    text-align: center;
+    padding-bottom: 15px;
+}
