@@ -2,6 +2,7 @@
 
 $bgColor: whitesmoke;
 $fontColor: black;
+$secColor: #007bff;
 
 /******** General Styles *******/
 
@@ -21,17 +22,49 @@ html{
 body{
     width: 100%;
     background-color: $bgColor ;
+    
 }
 
 /********* Headers **********/
 
+h1 {
+    color: $secColor;
+}
+
+h2, h3{
+    color: $fontColor;
+}
+
 /********** Grid ***********/
 
-.home{
+.container > div {
     padding-top: 50px;
 }
 
-/*********** Content *********/
+/*********** Button **********/
+
+#button-section{
+    text-align: center;
+    margin-top:5%;
+}
+
+.button-resume{
+    padding: 10px 15px;
+    background-color: $secColor;
+    border-radius: 5%;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+}
+
+.link:hover{
+    color: blue;
+    text-decoration: none;
+}
+
+/*********** Image *********/
 
 .myimg{
     text-align: center;
@@ -41,6 +74,29 @@ body{
     border-radius: 50%;
     width: 30%;
 }
+
+/*********** Table *********/
+
+table{
+    width: 100%;
+}
+
+td{
+    padding: 20px;
+    text-align: center;
+    img{
+        width: 100px;
+    }
+}
+/********** List ************/
+
+.col ul li{
+        padding: 5px;
+        margin-top: 5px;
+        margin-left: 30px;
+}
+
+
 
 /********** Footer **********/ 
 

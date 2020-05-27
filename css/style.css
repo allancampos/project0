@@ -16,17 +16,57 @@ body {
   background-color: whitesmoke; }
 
 /********* Headers **********/
+h1 {
+  color: #007bff; }
+
+h2, h3 {
+  color: black; }
+
 /********** Grid ***********/
-.home {
+.container > div {
   padding-top: 50px; }
 
-/*********** Content *********/
+/*********** Button **********/
+#button-section {
+  text-align: center;
+  margin-top: 5%; }
+
+.button-resume {
+  padding: 10px 15px;
+  background-color: #007bff;
+  border-radius: 5%; }
+
+.link {
+  color: white;
+  text-decoration: none; }
+
+.link:hover {
+  color: blue;
+  text-decoration: none; }
+
+/*********** Image *********/
 .myimg {
   text-align: center; }
 
 .img {
   border-radius: 50%;
   width: 30%; }
+
+/*********** Table *********/
+table {
+  width: 100%; }
+
+td {
+  padding: 20px;
+  text-align: center; }
+  td img {
+    width: 100px; }
+
+/********** List ************/
+.col ul li {
+  padding: 5px;
+  margin-top: 5px;
+  margin-left: 30px; }
 
 /********** Footer **********/
 footer {
